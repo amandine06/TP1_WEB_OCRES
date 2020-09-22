@@ -1,0 +1,60 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background:white;
+}
+.navbar {
+	background:white);
+}
+.nav-link, .navbar-brand {
+    color: rgb(236, 21, 140);
+   cursor: pointer;
+}
+
+.header {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.description h1{
+	color: rgb(236, 21, 140);
+}
+.description h5{
+	color: white;
+	border: 10px double white;
+}
+.description h6{
+	color: white;
+	border: 10px double white;
+}
+.description p {
+	color: white;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.page-footer {
+	background-color: rgb(0, 0, 0);
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
